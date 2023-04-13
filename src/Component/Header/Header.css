@@ -1,0 +1,34 @@
+.searchContainer{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    border: 1px solid gray;
+    background-color: bisque;
+}
+.searchContainer .input{
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.searchContainer .input input{
+    width: 60%;
+    height: 60%;
+    font-size: 1rem;
+    padding-left: 10px;
+   
+}
+.searchContainer .input button{
+    width: 20%;
+    height: 60%;
+    font-size: 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid grey;
+   
+}
